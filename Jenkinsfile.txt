@@ -1,6 +1,7 @@
 pipeline {
 
     agent any
+    tools {nodejs "Node 21.6.2"}
 
     environment {
         PATH='/Users/awc-110812/bin:/usr/bin:/bin'
