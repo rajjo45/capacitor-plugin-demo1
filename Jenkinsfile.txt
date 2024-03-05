@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        PATH='/Users/awc-110812/bin'
+        PATH='$PATH:/Users/awc-110812:/bin:/usr/bin:usr/local/bin'
 	}
 
     stages {
